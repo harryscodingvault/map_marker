@@ -1,1 +1,1 @@
-import selenium
+import scrapy
