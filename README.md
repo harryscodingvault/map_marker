@@ -4,7 +4,7 @@ A bot template to automate scraping data from LinkedIn profiles.
 
 ## Description
 
-Developed in Selenium, and Scrapy. Scrape data points from public LinkedIn profiles and send a connection request.
+Developed in Selenium, and Scrapy. Scrapes data points from public LinkedIn profiles and sends a connection request.
 
 ## Getting Started
 
