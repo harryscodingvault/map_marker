@@ -62,5 +62,17 @@ for profile in profiles:
 
     writer.writerow([name, p_url])
 
+    try: 
+        driver.find_element(By.XPATH, '//*[text()="More..."]').click()
+        sleep(1)
+
+        driver.find_element(By.XPATH, '//*[text()="Connect"]').click()
+        sleep(1)
+
+        driver.find_element(By.XPATH, '//*[text()="Send now"]').click()
+        sleep(1)
+
+    except:
+        pass
 
 driver.quit()
